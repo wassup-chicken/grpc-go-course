@@ -22,5 +22,10 @@ func main() {
 
 	c := pb.NewGreetServiceClient(conn)
 
-	doGreet(c)
+	//Unary
+	// doGreet(c)
+
+	//Stream
+	doGreetManyTimes(c)
+
 }
