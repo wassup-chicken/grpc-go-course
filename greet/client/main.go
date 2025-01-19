@@ -25,7 +25,10 @@ func main() {
 	//Unary
 	// doGreet(c)
 
-	//Stream
-	doGreetManyTimes(c)
+	//Stream from Server
+	// doGreetManyTimes(c)
+
+	//Stream from Client
+	doLongGreet(c)
 
 }
