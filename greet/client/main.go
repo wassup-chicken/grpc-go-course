@@ -29,6 +29,9 @@ func main() {
 	// doGreetManyTimes(c)
 
 	//Stream from Client
-	doLongGreet(c)
+	// doLongGreet(c)
+
+	//Bidirectional
+	doGreetEveryone(c)
 
 }
